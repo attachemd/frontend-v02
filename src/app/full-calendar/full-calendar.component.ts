@@ -138,6 +138,7 @@ export class FullCalendarComponent implements OnInit, DoCheck {
 
         let calendarEl: HTMLElement = document.getElementById('full-calendar')!;
         this.calendar = new Calendar(calendarEl, {
+            // schedulerLicenseKey: 'CC-Attribution-NonCommercial-NoDerivatives',
             plugins: [
                 momentPlugin,
                 dayGridPlugin,
